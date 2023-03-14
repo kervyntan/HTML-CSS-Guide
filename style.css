@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body, 
+p,
+h1,
+h2,
+h3 {
+    margin : 0;
+    padding : 0;
+}
+
+body div h1 {
+    color : crimson;
+}
+
+.section-three {
+    background : blue;
+    margin-bottom : 50px;
+}
+
+/* Specificity */
+/* inline-styling > ID > class */
+
+#section-three {
+    background : red;
+}
+
+/* Margin */
+/* Space BETWEEN elements */
+
+/* Padding */
+/* Space WITHIN elements */
+
+.section-four {
+    background : green;
+    padding-bottom : 50px;
+    padding-top : 50px;
+    border : 1px solid black;
+}
