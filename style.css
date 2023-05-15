@@ -1,49 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
+h1 {
+    color: blue;
+    font-size: 40px;
+    background-color: black;
 }
 
-body {
-    font-family: 'Open Sans', sans-serif;
+.test {
+    margin: 30px;
+
 }
 
-body, 
-p,
-h1,
-h2,
-h3 {
-    margin : 0;
-    padding : 0;
+.test2 {
+    color: purple;
+    background-color: green;
 }
 
-body div h1 {
-    color : crimson;
-    font-size : 60px;
+.alignc {
+    text-align: center;
 }
 
-.section-three {
-    background : blue;
-    margin-bottom : 50px;
-}
+* {
 
-/* Specificity */
-/* inline-styling > ID > class */
+    margin:0;
 
-#section-three {
-    background : red;
-}
-
-/* Margin */
-/* Space BETWEEN elements */
-
-/* Padding */
-/* Space WITHIN elements */
-
-.section-four {
-    background : green;
-    padding-bottom : 50px;
-    padding-top : 50px;
-    border : 1px solid black;
 }
