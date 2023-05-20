@@ -1,25 +1,163 @@
-h1 {
-    color: blue;
-    font-size: 40px;
-    background-color: black;
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-width: 600px;
 }
 
-.test {
-    margin: 30px;
-
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
 }
 
-.test2 {
-    color: purple;
-    background-color: green;
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 100px 0px;
 }
 
-.alignc {
+.main img {
+    border-radius: 50%;
+    width: 75px;
+    margin: 16px;
+}
+
+.body {
+    display: flex;
+    font-family: 'Roboto', arial;
+    color: whitesmoke;
+    margin: 0px 300px 100px;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    
+    
+}
+
+.body img {
+    
+    width: 400px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.body .para {
+    min-width: 500px;
+    max-width: 500px;
+    
+}
+
+.para  p { 
+    color: gray
+}
+
+button {
+    background-color: rgb(35, 120, 201);
+    color: whitesmoke;
+    font-size: 25px;
+    padding: 5px 20px;
+    border-radius: 50px;
+    border-color: whitesmoke;
+    
+}
+
+.body1 {
+    background-color: lightgray;
+}
+
+.body1 .title {
+    font-size: 70px;
+    text-align: center;
+    margin: 50px;
+}
+
+.container {
+    display: flex;
+    margin: 50px 200px;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+
+.box {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    
+}
+
+.box p {
     text-align: center;
 }
 
-* {
+.box img {
+    border-radius: 15px;
+    width: 200px;
+    height: 200px;
+    margin: 16px;
+    border: 5px solid;
+    
+}
 
-    margin:0;
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(45, 45, 94);
+    color: white;
+    font-family: 'Roboto', arial;
+    padding: 30px;
+
+}
+
+.body2 {
+    background-color: rgb(152, 188, 230);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    
+}
+
+.body2 h2 {
+    text-align: center;
+    width: 500px;
+}
+
+
+
+.body3 {
+    margin: 50px;
+    background-color: rgb(113, 186, 235);
+    border-radius: 10px;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    align-self: center;
+    gap: 50px;
+}
+
+.body3 h4 {
+    color: whitesmoke;
+    margin: 30px 0 0;
+    font-size: 30px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    margin: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: White;
 
 }
